@@ -1,21 +1,21 @@
 {
-  "name": "GitHub.Expandinizr",
+  "name": "GitHub.Expandinizr - Enterprise Edition",
   "version": "1.5.1",
   "manifest_version": 2,
   "description": "Chrome extension that improves the GitHub experience",
-  "homepage_url": "http://github.com/thecodejunkie/github.expandinizr",
+  "homepage_url": "http://github.com/dustinsoftware/github.expandinizr",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "permissions": [
-    "https://github.com/*"
+    "http://git/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/*"
+        "http://git/*"
       ],
       "css": [
         "content/inject.css"
