@@ -10,12 +10,12 @@
     "128": "icons/icon128.png"
   },
   "permissions": [
-    "http://git/*"
+    "https://git/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "http://git/*"
+        "https://git/*"
       ],
       "css": [
         "content/inject.css"
